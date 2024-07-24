@@ -1,0 +1,14 @@
+.header {
+    color: rgb(19, 120, 209);
+    background-color: rgb(217, 134, 22);
+    font-size: 34px;
+    -unity-text-align: upper-center;
+    background-image: none;
+}
+
+.toggle {
+}
+
+.toggle:checked {
+    opacity: 0.46;
+}
