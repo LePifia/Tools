@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/oldOnes/test.uss?fileID=7433441132597879392&amp;guid=9e1145cc118fc6f4aa1ae000273fff8d&amp;type=3#test" />
+    <Style src="project://database/Assets/Scripts/Editor/EditorWindow/TaskList.uss?fileID=7433441132597879392&amp;guid=3f52659560b9d9c40be8a4facfc3defa&amp;type=3#TaskList" />
+    <ui:VisualElement name="Organizer" class="parent">
+        <ui:VisualElement name="ButtonContainer" class="header container">
+            <ui:Label tabindex="-1" text="UI Basic" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-self: center;" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" style="border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ProgressContainer" class="header container">
+            <ui:Label name="Label" text="Label" class="header" style="align-items: auto;" />
+            <ui:Toggle label="Toggle" value="false" class="toggle" style="-unity-text-align: middle-center; justify-content: flex-start; align-self: auto; align-items: auto;" />
+            <ui:ProgressBar value="22" title="my-progress" style="align-items: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
